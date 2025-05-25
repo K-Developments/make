@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/other.css">
+<link rel="stylesheet" href="./styles/swiper-bundle.min.css">
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body class=" bg-white" style="padding-bottom: 1000px;" >
+
+
+  <!-- Header -->
+  <header class="header uppercase" id="header" > 
+    <div class="navbar">
+      <!-- Logo -->
+      <a href="/" class="logo">
+        <img src="assets/" alt="Creative Agency" width="100px">
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav id="navigation" class="desktop-nav ">
+        <ul class="nav-links ">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#contact" class="nav-link">Blog</a></li>
+        </ul>
+      </nav>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Toggle navigation">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-menu-links" id="mobileMenuLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+
+    <!--hero section-->
+  <section  class="hero relative min-h-screen flex items-center pt-20 bg-gray-50 overflow-hidden" id="home">
+
+    <div class="text-white container mx-auto px-6 relative z-10">
+    <div id="hero-content" class=" hero-content max-w-3xl">
+        <h1 class="hero-title text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">We Create Digital Experiences That Matter</h1>
+        <p class="hero-subtitle text-xl md:text-2xl mb-10 max-w-2xl">Award-winning creative agency focused on branding, web design and development</p>
+        <div class="hero-cta flex flex-wrap gap-4">
+
+          <a href="#work"> 
+            <button class="btn-primary px-8 py-3.5  transition-colors duration-300 text-lg font-medium cursor-pointer">
+              View Our Work
+            </button>
+            </a>
+
+          <a href="#contact" >
+            <button class="btn-secondary px-8 py-3.5   cursor-pointer transition-colors duration-300 text-lg font-medium " style="color: var(--primary-color); ">
+Get in Touch
+            </button></a>
+        </div>
+       </div>
+    </div>
+    
+    <!-- Hero Background Elements -->
+    <div class="hero-background absolute inset-0 z-0">
+
+      <div class="shape-1 absolute w-64 h-64 md:w-80 md:h-80 bg-gradient-to-r from-blue-600 to-purple-600 opacity-10 rounded-full mix-blend-multiply animate-float"></div>
+      <div class="shape-2  absolute w-48 h-48 md:w-64 md:h-64 bg-gradient-to-r from-gray-800 to-black opacity-10 rounded-full mix-blend-multiply animate-float-delay"></div>
+
+      <div class="floating-div flex absolute top-0 left-0 right-0 bottom-0 items-center justify-center w-[50%]"> 
+        <h1 class="floating-text">Welcome to Nexoria <br> Creations</h1>
+      </div>
+     
+
+       <div class="swiper hero-swiper">
+    <div class="swiper-wrapper">
+
+     <div class="swiper-slide" >
+       <div id="hero-img" class="hero-image absolute right-0 bottom-0  z-[111111] ">
+      <img src="assets/hero-image.jpg" alt="Creative work" class=" object-cover object-center">
+      </div>
+     </div>
+       
+      
+     <div class="swiper-slide">
+      <div   class="hero-image absolute right-0 bottom-0 z-[111111] swiper-slide">
+      <img src="assets/hero-2.jpg" alt="Creative work" class=" object-cover object-center">
+    </div>
+     </div>
+    
+     <div class="swiper-slide">
+      <div   class="hero-image absolute right-0 bottom-0  z-[111111] swiper-slide ">
+      <img src="assets/hero-3.jpg" alt="Creative work" class=" object-cover object-center">
+    </div>
+
+     </div>
+    
+    </div>
+    <!--<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+  </div>
+
+      <!-- Hero Image (positioned absolutely) -->
+     
+    </div>
+  </section>
+ 
+   <script src="./js/gsap.min.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/scripts.js"></script>  
+  
+  <script src="./js/ScrollToPlugin.min.js"></script>
+
+  <!--icons-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html> 
