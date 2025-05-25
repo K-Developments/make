@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
       {
         width: "100%",
         x: "0",
-        duration: 1,
+        duration: 0.4,
         ease: "power2.inOut",
         immediateRender: true
       }
@@ -129,7 +129,7 @@ heroImage.style.height = "100vh";
       width: "100%",
      height:"100%",
       x: 0,
-      duration: 1,
+      duration: 0.4,
       ease: "power2.inOut",
       immediateRender: true
     }
